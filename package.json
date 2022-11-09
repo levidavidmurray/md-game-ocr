@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "@iconify/json": "^2.1.124",
+    "@tensorflow/tfjs": "^4.0.0",
     "naive-ui": "^2.33.5",
-    "nuxt-windicss": "^2.5.2"
+    "nuxt-windicss": "^2.5.2",
+    "socket.io-client": "^4.5.3"
   }
 }
