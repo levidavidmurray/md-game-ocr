@@ -6,8 +6,10 @@
         "shape": [ -1, 416, 416, 3 ]
       },
       "output_head_metadata": [ {
-        "predictions_tensor_name": "prediction:0",
-        "labelmap_path": "head_1_plantae_47126_mid_labelmap.json"
+        "num_detections_tensor_name": "num_detections",
+        "detection_boxes_tensor_name": "bboxes",
+        "detection_scores_tensor_name": "scores",
+        "detection_classes_tensor_name": "classes"
       } ]
     },
     "test_images_index_path": "https://storage.googleapis.com/tfhub-visualizers/google/aiy/vision/classifier/plants_V1/1/index.json"
