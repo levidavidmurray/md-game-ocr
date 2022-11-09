@@ -1,0 +1,14 @@
+{
+    "model_path": "model.json",
+    "tfjs_classifier_model_metadata": {
+      "input_tensor_metadata": {
+        "name": "map/TensorArrayStack/TensorArrayGatherV3:0",
+        "shape": [ -1, 416, 416, 3 ]
+      },
+      "output_head_metadata": [ {
+        "predictions_tensor_name": "prediction:0",
+        "labelmap_path": "head_1_plantae_47126_mid_labelmap.json"
+      } ]
+    },
+    "test_images_index_path": "https://storage.googleapis.com/tfhub-visualizers/google/aiy/vision/classifier/plants_V1/1/index.json"
+}
