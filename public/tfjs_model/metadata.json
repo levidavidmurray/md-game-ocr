@@ -1,6 +1,6 @@
 {
     "model_path": "model.json",
-    "tfjs_classifier_model_metadata": {
+    "tfjs_detector_model_metadata": {
       "input_tensor_metadata": {
         "name": "map/TensorArrayStack/TensorArrayGatherV3:0",
         "shape": [ -1, 416, 416, 3 ]
